@@ -1,5 +1,5 @@
 
-function mtcnn_detector = setup_MTCNN()
+function mtcnn_detector = setup_mtcnn()
 
 %minimum size of face
 minsize=100;
