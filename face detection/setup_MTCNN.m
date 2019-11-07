@@ -7,7 +7,7 @@ minsize=100;
 %path of toolbox
 caffe_path='E:\caffe-master';
 pdollar_toolbox_path='E:\toolbox_pdollar';
-caffe_model_path='.\face detection\MTCNN_face_detection\MTCNNv2\model';
+caffe_model_path='.\face detection\MTCNNv2\model';
 addpath(genpath(caffe_path));
 addpath(genpath(pdollar_toolbox_path));
 
