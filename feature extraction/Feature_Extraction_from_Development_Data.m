@@ -4,7 +4,7 @@ function [X_devel,Y_devel] = Feature_Extraction_from_Development_Data(options,da
     X_devel = [];
     for i = 1:DeNum
         fprintf('development video: %d\n',i);
-        v = VideoReader(strcat(options.dataPath,'replayattack-devel/',data.develData{i}));
+        v = VideoReader(strcat(options.dataPath,data.develData{i}));
         F = Feature_Extraction_VideoEvaluation_SequenceFeatures(v,options);
         if isempty(X_devel)
             X_devel = F;
