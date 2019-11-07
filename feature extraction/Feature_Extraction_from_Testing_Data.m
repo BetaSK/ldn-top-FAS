@@ -4,11 +4,7 @@ function [X_test,Y_test] = Feature_Extraction_from_Testing_Data(options,data)
     X_test = [];
     for i = 1:TeNum
         fprintf('testing video: %d\n',i);
-        if data.hasDevel
-            v = VideoReader(strcat(options.dataPath,'replayattack-test/',data.testData{i}));
-        else
-            v = VideoReader(strcat(options.dataPath,data.testData{i}));
-        end
+        v = VideoReader(strcat(options.dataPath,data.testData{i}));
         F = Feature_Extraction_VideoEvaluation_SequenceFeatures(v,options);
         if isempty(X_test)
             X_test = F;
