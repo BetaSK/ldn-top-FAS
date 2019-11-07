@@ -4,27 +4,19 @@ im = double(im);
 [height,width,channels] = size(im);
 hout = [];
 
-switch plane
-    case 'XY'
-        hsize = options.blockSize_xy(1);
-        wsize = options.blockSize_xy(2);
-        h_overlap = options.overlap_xy(1);
-        w_overlap = options.overlap_xy(2);
-        ldnParam = options.sigma;
-    case 'XT'
-        hsize = height;
-        wsize = width;
-        h_overlap = 0;
-        w_overlap = 0;
-        ldnParam = options.sigma;
-    case 'TY'
-        hsize = height;
-        wsize = width;
-        h_overlap = 0;
-        w_overlap = 0;
-        ldnParam = options.sigma;
+if strcmp(plane,'XY')
+    hsize = options.blockSize_xy(1);
+    wsize = options.blockSize_xy(2);
+    h_overlap = options.overlap_xy(1);
+    w_overlap = options.overlap_xy(2);
+else
+    hsize = height;
+    wsize = width;
+    h_overlap = 0;
+    w_overlap = 0;
 end
 
+ldnParam = options.sigma;
 nx = (height - h_overlap)/(hsize - h_overlap);
 ny = (width - w_overlap)/(wsize - w_overlap);
 
