@@ -4,7 +4,7 @@ Face Anti-spoofing Based on Dynamic Color Texture Analysis Using Local Direction
 
 Requirement
 1. MTCNN face detector: https://github.com/kpzhang93/MTCNN_face_detection_alignment
-2. Matlab R2016b to reproduce our result, later version may lead to bias.
+2. Matlab R2016b to reproduce our results, later version may lead to bias.
 
 Usage
 TO DO
