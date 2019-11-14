@@ -1,4 +1,4 @@
-function [test_data,test_labels] = read_uvad_test_data_1(path)
+function [test_data,test_labels] = read_uvad_test_data(path)
 
     fid_test_real_canon = fopen(strcat(path,'positive/real-canon.txt'));
     fid_test_real_panasonic = fopen(strcat(path,'positive/real-panasonic.txt'));
