@@ -1,4 +1,4 @@
-function [train_data,train_labels] = read_uvad_train_data_1(path)
+function [train_data,train_labels] = read_uvad_train_data(path)
 
     fid_train_real_sony = fopen(strcat(path,'positive/real-sony.txt'));
     fid_train_real_olympus = fopen(strcat(path,'positive/real-olympus.txt'));
