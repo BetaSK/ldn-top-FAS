@@ -8,7 +8,7 @@ This is a Matlab implementation of our paper:
 
 1. MTCNN face detector: https://github.com/kpzhang93/MTCNN_face_detection_alignment
 2. Matlab R2016b to reproduce our results, later version may lead to bias.
-3. libsvm:  https://www.csie.ntu.edu.tw/~cjlin/libsvm/ 
+3. libsvm:  https://www.csie.ntu.edu.tw/~cjlin/libsvm/ , please replace the svm.cpp with our version with extension of histogram intersection kernel, you can find it in "./evaluation/libsvm hik/svm.cpp".
 4. ProCRC: http://www4.comp.polyu.edu.hk/~cslzhang/code/ProCRC_code_ver_1.0.zip
 
 ### Data Preparation
