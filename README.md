@@ -17,9 +17,11 @@ In this paper, we use three challenging public datasets, namely, [CASIA Face Ant
 
 Download the datasets and put them in `.\data\dataset`.
 
-### Usage
+### Demo
 
 We provide the demo code to produce the best result  of CASIA FASD we reported in the paper.  Run `demo.m`,  you can get the classification result.
+
+### Usage
 
 Or you want to run the whole process, you can follow the steps below:
 
