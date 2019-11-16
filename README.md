@@ -33,7 +33,7 @@ Or you want to run the whole process, you can follow the steps below:
 
 ### Results
 
-![image-20191116162414489](.\samples\result1.png)
+![image-20191116162414489](https://github.com/BetaSK/ldn-top-FAS/blob/master/samples/result1.png)
 
-![image-20191116162456535](.\samples\result1.png)
+![image-20191116162456535](https://github.com/BetaSK/ldn-top-FAS/blob/master/samples/result2.png)
 
